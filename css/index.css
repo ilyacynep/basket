@@ -1,0 +1,31 @@
+.container{
+    width: 1234px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.product-grid{
+    grid-column: 3 span;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.filters{
+    position: relative;
+}
+.height{
+    height: 3000px;
+}
+.filters-price__input{
+    width: 100%;
+}
+.fixed{
+    position: fixed;
+    top: 20px;
+    left: 0;
+}
